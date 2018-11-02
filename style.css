@@ -4,6 +4,7 @@ body {
     font-family: monospace;
     overflow-x: hidden;
     background: #fafafa;
+    padding-bottom: 35vh;
 }
 h2 {
     font-size: 28px;
@@ -97,6 +98,7 @@ pre {
 }
 .player-card {
     margin-left: 20px;
+    cursor: pointer;
 }
 .player-info {
     grid-column: 1/-1;
@@ -132,4 +134,14 @@ pre {
     font-size: 12px;
     width: 25%;
     border-radius: 0px;
+}
+.current-players-hand {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    background: white;
+    padding: 20px;
 }
